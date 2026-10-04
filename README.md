@@ -8,7 +8,8 @@ FP32-accumulate (BF16-WA) MAC, checked bit-exact against a Python reference:
   so a register can be placed between them (align/add, then normalize/round).
 
 There is no HardFloat or vendor IP; it is plain RTL that Icarus Verilog, Verilator and Yosys read.
-These operators come from ChipLab, a hobby AI-accelerator project that uses BF16 multiply with FP32
+These operators come from ChipLab, a hobby AI-accelerator project run as a lab of AI coding agents (Claude and Codex)
+directed by its owner; the RTL, models and tests here were written by those agents. ChipLab uses BF16 multiply with FP32
 accumulate. Provenance is in [PROVENANCE.md](PROVENANCE.md).
 
 ## Interface
